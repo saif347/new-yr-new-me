@@ -1,0 +1,182 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Work Sans', sans-serif;
+}
+.header{
+    width: 525px;
+    margin: auto;
+    padding-top: 330px;
+    margin-right: 250px;
+    text-align: right;
+    
+}
+.header-title{
+    font-size: 65px;
+    font-weight: 700;
+}
+.header-text{
+    color: #444343;
+    margin-bottom: 30px;
+    padding-left:50px;
+    line-height: 1.5;
+}
+.head-btn{
+    background-color: #F15B22;
+    color: #fff;
+    font-size: 20px;
+    height: 64px;
+    width: 160px;
+    border: 0px;
+    border-radius: 5px;
+}
+/* banner */
+header{
+    height: 950px;
+    background-image: url(../new-yr-images/banner1.png);
+    background-size: cover;
+}
+
+/* main sec */
+/* about section */
+
+main{
+    margin: 150px 250px;
+}
+
+section{
+    margin-bottom: 150px;
+}
+
+.about-sec{
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    justify-content: center;
+}
+.sec-img{
+    width: 550px;
+    height: 700px;
+    /* background-color: rgba(241, 91, 34, 0.2); */
+}
+.about{
+    width: 400px;
+    height: 425px;
+}
+.about-title{
+    font-size: 35px;
+    font-weight: 800;
+    padding-right: 100px;
+    margin-bottom: 50px;
+}
+.about-description{
+    color: #444343;
+    line-height: 1.5;
+    padding-right: 50px;
+    margin-bottom: 20px;
+}
+ul{
+    margin-left: 18px;
+}
+ul li{
+    color: #444343;
+    padding-left: 5px;
+}
+
+/* my plan sec */
+.my-plan-heading{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.my-plan-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+.my-plan-item{
+    text-align: center;
+}
+.item-name{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* sec 3 */
+
+.img-overly-text{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.cta-btn{
+    background-color: #fff;
+    color: #F15B22;
+    height: 50px;
+    width: 100px;
+    border: 0;
+    border-radius: 5px;
+    display: block;
+
+}
+.image-sec{
+    width: 1100px;
+    height: 300px;
+    margin: auto;
+    background-image: linear-gradient(90deg,rgba(241, 91, 34, 1), rgba(241, 91, 34, 0) ), url(../new-yr-images/watch.png);
+
+}
+
+.img-overly{
+    padding: 70px 0px 50px 50px;
+
+}
+/* footer */
+footer{
+    height: 550px;
+    background-color: #151414;
+    
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    
+}
+.footer-column{
+    color: #ffffff;
+    width: 450px;
+    margin-top: 130px;
+
+}
+.footer-column p{
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.foot-title{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.icon{
+    margin-right: 10px;
+}
+.footer-column h4{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.cta-form input{
+    display: block;
+    color: #f3f3f3 ;
+    margin-bottom: 30px;
+    width: 325px;
+    height: 65px;
+    border: 1px solid #ffffff;
+    background-color: #151414 ;
+    border-radius: 10px;
+    padding-left: 20px;
+}
